@@ -1,6 +1,7 @@
 # DE_FINAL_PROJECT
 
-DE_FINAL_PROJECT is an Airflow Image for scraping data from [/r/cryptocurrency](https://www.reddit.com/r/CryptoCurrency/) and performance of the top 100 coins on [Coingecko](https://www.coingecko.com/). The image contains a DAG which scrapes the data, and performs a word count on how many times any symbol or coin name has been mentioned in the post text, or title. 
+DE_FINAL_PROJECT is an Airflow Image for scraping data from [/r/cryptocurrency](https://www.reddit.com/r/CryptoCurrency/) and performance of the top 100 coins on [Coingecko](https://www.coingecko.com/). The image contains a DAG which scrapes the data, and performs a word count on how many times any symbol or coin name has been mentioned in the post text, or title.  
+The scheduled scraping is daily, as the goal of the project is to compare the 24h % change, to how many times the coin or symbol has mentioned in a title or post text of reddit.
 
 
 
