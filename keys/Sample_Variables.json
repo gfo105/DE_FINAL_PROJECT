@@ -1,0 +1,9 @@
+{
+    "SERVICE_ACCESS_KEY":"GCS Service access key goes here ",
+    "SERVICE_SECRET":"GCS Service Secret goes here ",
+    "client_id": "Reddit PRAW client_id goes here",
+    "client_secret": "Reddit PRAW client_secret goes here",
+    "password": "Reddit password goes here",
+    "user_agent": "Reddit PRAW user_agent goes here",
+    "username": "Reddit username goes here"
+}
