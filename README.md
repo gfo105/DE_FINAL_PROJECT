@@ -27,7 +27,7 @@ Unless configured otherwise the Airflow GUI can be accessed at: http://localhost
 
 ![Airflow GUi](https://cdn.discordapp.com/attachments/824701298716573807/990222241675477042/unknown.png)
 
-The DAG is called "Crypto_Scraper_Wordcount" and since the docker compose installs the dependencies, it's almost ready to run. However, some additional keys are necessary to run the DAG, and these can be accessed in the variables.  
+The DAG is called "Crypto_Scraper_Wordcount" and since the docker compose installs the dependencies, it's almost ready to run. However, some additional keys are necessary to run the DAG, and these can be accessed in the variables tab of airflow (under admin).  
 Reddit Variables [(Guide here)](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps)
 ```
 client_id=Variable.get('client_id'),      
